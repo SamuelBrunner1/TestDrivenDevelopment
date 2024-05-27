@@ -12,3 +12,16 @@ function electronsAroundCores(dice) {
 }
 
 module.exports = electronsAroundCores;
+
+function electronsAroundCores(dice) {
+    const counts = new Array(6).fill(0);
+    dice.forEach(num => counts[num - 1]++);
+    
+    if (counts.includes(2)) return counts.indexOf(2) + 1;
+    if (counts.includes(4)) return (counts.indexOf(4) + 1) * 2;
+    if (counts.includes(1)) return 12;
+    
+    return 0;
+}
+
+module.exports = electronsAroundCores;
