@@ -1,0 +1,30 @@
+#todo
+
+Setup Project
+
+Initialize a new Git repository.
+Create project structure with src and spec directories.
+Setup package.json for managing dependencies and scripts.
+Install testing framework (e.g., Jasmine).
+Create Initial Files
+
+Create src/electrons.js for the main logic.
+Create spec/electronsSpec.js for the tests.
+Write Test Cases for Known Inputs
+
+Write a test for input [1, 2, 3, 4, 5] expecting output 6.
+Write a test for input [2, 2, 3, 3] expecting output 4.
+Write a test for input [6, 6, 4, 4, 1, 3] expecting output 2.
+Write a test for input [3, 5, 3, 5, 4, 2] expecting output 12.
+Implement Production Code
+
+Implement the simplest logic to pass the first test case.
+Gradually add logic to handle all the test cases.
+Refactor and Optimize
+
+Refactor the production code for readability and performance.
+Ensure all tests still pass after refactoring.
+Additional Test Cases
+
+Add more test cases to cover edge cases and other possible inputs.
+Ensure all test cases pass.
